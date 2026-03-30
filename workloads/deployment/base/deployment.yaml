@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: logger
-          image: quay.io/nirsof/busybox:stable
+          image: quay.io/prometheus/busybox:latest
           imagePullPolicy: IfNotPresent
           command:
             - sh
